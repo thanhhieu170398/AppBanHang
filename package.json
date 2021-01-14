@@ -1,0 +1,56 @@
+{
+  "name": "StoreApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "release": "./node_modules/.bin/jetifier && cd android && ./gradlew assembleRelease",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.10.1",
+    "@react-navigation/material-bottom-tabs": "^5.3.9",
+    "@react-navigation/native": "^5.8.1",
+    "@react-navigation/stack": "^5.11.0",
+    "@reduxjs/toolkit": "^1.4.0",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-fast-image": "^8.3.2",
+    "react-native-firebase": "^5.6.0",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-get-random-values": "^1.5.0",
+    "react-native-image-crop-picker": "^0.35.1",
+    "react-native-image-picker": "^2.3.4",
+    "react-native-image-slider-box": "^1.0.12",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-modal": "^11.5.6",
+    "react-native-paper": "^4.4.0",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.12.0",
+    "react-native-shimmer-placeholder": "^2.0.6",
+    "react-native-super-grid": "^4.0.3",
+    "react-native-textinput-effects": "^0.6.1",
+    "react-native-vector-icons": "^7.1.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
